@@ -1,0 +1,7 @@
+str1 = "python"
+str2 = ""
+count = len(str1)
+while count > 0:
+    str2 += str1[count - 1]
+    count = count - 1
+print(str2)
